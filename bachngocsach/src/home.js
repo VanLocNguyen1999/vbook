@@ -2,10 +2,8 @@ load('config.js');
 function execute() {
     return Response.success([
         {title: "Đề cử", input: BASE_URL + "/reader/recent-promote", script: "tab.js"},
-        {title: "Dịch", input: BASE_URL + "/reader/recent-bns", script: "tab.js"},
-        {title: "Convert", input: BASE_URL + "/reader/recent-cv", script: "tab.js"},
-        {title: "Sáng Tác", input: BASE_URL + "/reader/recent-sangtac", script: "tab.js"},
-        {title: "Sưu tầm", input: BASE_URL + "/reader/recent-st", script: "tab.js"},
-        {title: "Hoàn thành", input: BASE_URL + "/reader/recent-hoanthanh", script: "tab.js"}
+        {title: "Tiên hiệp", input: BASE_URL + "/reader/theloai/tien-hiep", script: "tab.js"},
+        {title: "Đồng nhân", input: BASE_URL + "/reader/theloai/dong-nhan", script: "tab.js"},
+        {title: "Hoàn thành", input: BASE_URL + "/reader/recent-hoanthanh", script: "tab.js"},
     ]);
 }
