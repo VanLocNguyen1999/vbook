@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "author": "vBook",
+    "author": "LocNV",
     "description": ""
   },
   "data": [
     {
       "name": "Bạch Ngọc Sách LOC",
-      "author": "vBook",
+      "author": "LocNV",
       "path": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/bachngocsach/plugin.zip",
       "version": 9,
       "source": "https://bachngocsach.com.vn/reader",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Truyện Chữ LOC",
-      "author": "vBook",
+      "author": "LocNV",
       "path": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/truyenchu/plugin.zip",
       "version": 4,
       "source": "https://truyenchu.vn",
