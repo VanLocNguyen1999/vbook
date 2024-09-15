@@ -9,8 +9,8 @@
       "author": "vBook",
       "version": 1,
       "source": "https://www.bing.com/translator",
-      "path": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/edge-translate/plugin.zip",
-      "icon": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/edge-translate/icon.png",
+      "path": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/edge-translate/plugin.zip",
+      "icon": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/edge-translate/icon.png",
       "description": "Dịch truyện bằng Edge Translate",
       "type": "translate"
     }
