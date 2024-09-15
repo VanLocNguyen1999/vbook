@@ -11,8 +11,8 @@
       "version": 9,
       "source": "https://bachngocsach.com.vn/reader",
       "icon": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/bachngocsach/icon.png",
-      "description": "Đọc truyện trên trang bachngocsach.com.vn/reader",
-      "type": "novel",
+      "description": "Đọc truyện trên bachngocsach",
+      "type": "LocNV",
       "locale": "vi_VN"
     },
     {
@@ -22,8 +22,8 @@
       "version": 4,
       "source": "https://truyenchu.vn",
       "icon": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/truyenchu/icon.png",
-      "description": "Đọc truyện trên trang Truyện Chữ",
-      "type": "novel",
+      "description": "Đọc truyện trên Truyện Chữ",
+      "type": "LocNV",
       "locale": "vi_VN"
     }
   ]
