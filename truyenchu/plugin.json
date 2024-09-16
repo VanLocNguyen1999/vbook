@@ -1,7 +1,7 @@
 {
   "metadata": {
     "name": "Truyện Chữ",
-    "author": "vBook",
+    "author": "LocNV",
     "version": 4,
     "source": "https://truyenchu.vn",
     "regexp": "(www.)?(truyenchu.vn)/[^/]+/?$",

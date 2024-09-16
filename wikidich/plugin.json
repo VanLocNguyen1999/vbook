@@ -1,0 +1,21 @@
+{
+    "metadata": {
+        "name": "WikiDich",
+        "author": "LocNV",
+        "version": 1,
+        "source": "https://truyenwikidich.net/",
+        "regexp": "(truyenwikidich.net)/[^/]+/?$",
+        "description": "Đọc truyện trên WikiDich",
+        "locale": "vi_VN",
+        "type": "LocNV",
+        "language": "javascript"
+    },
+    "script": {
+        "home": "home.js",
+        "genre": "genre.js",
+        "search": "search.js",
+        "detail": "detail.js",
+        "toc": "toc.js",
+        "chap": "chap.js"
+    }
+}

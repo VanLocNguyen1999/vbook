@@ -1,7 +1,7 @@
 {
     "metadata": {
         "name": "Bạch Ngọc Sách",
-        "author": "vBook",
+        "author": "LocNV",
         "version": 9,
         "source": "https://bachngocsach.com.vn/reader",
         "regexp": "(bachngocsach.com|truyenbns.com|bachngocsach.com.vn)/reader/[^/]+/?$",
