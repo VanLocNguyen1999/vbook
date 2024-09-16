@@ -25,6 +25,17 @@
       "description": "Đọc truyện trên Truyện Chữ",
       "type": "LocNV",
       "locale": "vi_VN"
+    },
+    {
+      "name": "WikiDich",
+      "author": "LocNV",
+      "path": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/wikidich/plugin.zip",
+      "version": 1,
+      "source": "https://truyenwikidich.net/",
+      "icon": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/wikidich/icon.png",
+      "description": "Đọc truyện trên WikiDich",
+      "type": "LocNV",
+      "locale": "vi_VN"
     }
   ]
 }
