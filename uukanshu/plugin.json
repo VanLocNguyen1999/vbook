@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "name": "uukanshu",
+        "author": "LocNV",
+        "version": 1,
+        "source": "https://uukanshu.cc/",
+        "regexp": "(uukanshu.cc/)/[^/]+/?$",
+        "description": "Đọc truyện trên uukanshu",
+        "locale": "vi_VN",
+        "type": "LocNV",
+        "language": "javascript"
+    },
+    "script": {
+        "home": "home.js",
+        "detail": "detail.js",
+        "toc": "toc.js",
+        "chap": "chap.js"
+    }
+}

@@ -36,6 +36,17 @@
       "description": "Đọc truyện trên WikiDich",
       "type": "LocNV",
       "locale": "vi_VN"
+    },
+    {
+      "name": "uukanshu",
+      "author": "LocNV",
+      "path": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/uukanshu/plugin.zip",
+      "version": 1,
+      "source": "https://uukanshu.cc/",
+      "icon": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/uukanshu/icon.png",
+      "description": "Đọc truyện trên uukanshu",
+      "type": "LocNV",
+      "locale": "vi_VN"
     }
   ]
 }
