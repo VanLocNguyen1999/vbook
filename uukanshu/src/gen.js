@@ -3,15 +3,7 @@ load('config.js');
 function execute(url, page) {
     if (!page) page = '1';
 
-    const urlObj = new URL(url);
-
-    // Thay đổi phần số trang cuối cùng trong đường dẫn
-    // Ví dụ: 'class_1_1.html' -> 'class_1_2.html'
-    let parts = urlObj.pathname.split('_');  // Chia phần đường dẫn theo dấu '_'
-    parts[parts.length - 1] = `${page}.html`;  // Thay số trang cuối cùng
-    urlObj.pathname = parts.join('_');  // Ghép lại thành 
-
-    let response = fetch(urlObj.href);
+    let response = fetch(BASE_URL + url + "_" + page + ".html");
 
     if (response.ok) {
         let doc = response.html();
