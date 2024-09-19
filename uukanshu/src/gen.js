@@ -9,22 +9,16 @@ function execute(url, page) {
         let doc = response.html();
         var booklist = [];
         var next = doc.select(".pagelink").select(">strong").text() + 1 ;
-        const  link_book =  doc.select(".content book .bookbox").select(".bookname > a").first().attr("href");
-
-        for (let i = 0; i < link_book.size(); i++) {
-            let e = link_book.get(i);
-            let book = fetch(e).html();
-            let Img = book.select(".bookcover hidden-xs").select("img").first().attr("src");
-
+        doc.select(".book-list .book-item]").forEach(e => {
             booklist.push({
-                name: book.select(".booktitle").text(),
-                link: e,
-                description: book.select(".booktag").text(),
-                cover: Img,
+                name: e.select(".bookname > a").text(),
+                link: e.select(".bookname > a").attr("href"),
+                description: e.select(".bookinfo update").html(),
+           //     cover: e.select(".cover-col").attr("href"),
                 host: BASE_URL,
             });
-        }
+        });
         return response.success(booklist, next);
-    }
+        }
     return null;
 }
