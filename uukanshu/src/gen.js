@@ -9,12 +9,13 @@ function execute(url, page) {
         let doc = response.html();
         var booklist = [];
         var next = doc.select(".pagelink").select(">strong").text() + 1 ;
+        let img = 'https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/uukanshu/icon.png' ;
         doc.select(".book-list .book-item]").forEach(e => {
             booklist.push({
                 name: e.select(".bookname > a").text(),
                 link: e.select(".bookname > a").attr("href"),
                 description: e.select(".bookinfo update").html(),
-           //     cover: e.select(".cover-col").attr("href"),
+                cover: img,
                 host: BASE_URL,
             });
         });
