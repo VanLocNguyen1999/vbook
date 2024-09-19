@@ -18,7 +18,7 @@ function execute(url, page) {
                 host: BASE_URL,
             });
         });
-        return response.success(booklist, next);
+        return response.success(booklist);
         }
     return null;
 }
