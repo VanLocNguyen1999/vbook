@@ -3,7 +3,7 @@ load('config.js');
 function execute(url, page) {
     if (!page) page = '1';
 
-    let response = fetch(BASE_URL + url + "_" + page + ".html");
+    let response = fetch(BASE_URL + url + '_' + page + '.html');
 
     if (response.ok) {
         let doc = response.html();
