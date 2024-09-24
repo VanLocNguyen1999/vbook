@@ -1,13 +1,13 @@
 load('config.js');
-function execute() {
+function execute(url, page) {
     if (!page) page = '1';
 
-    let response = fetch("https://m.yunxuange.org/yxg/sort_wuxia_1.html");
+    let response = fetch(url + "_" + page + ".html");
     if (response.ok) {
         let doc = response.html();
         var novelList = [];
- //       var next = doc.select("div.pagelist");
- //       next = next[2].text();
+        var next = doc.select("div.pagelist");
+        next = next[2].text();
         doc.select("ul.list").select(".li").forEach(e => {
             novelList.push({
                 name: e.select("p.bookname").text(),
@@ -17,7 +17,7 @@ function execute() {
                 host: BASE_URL,
             });
         });
-        return Response.success(novelList);
+        return Response.success(novelList, next);
     }
     return null;
 }
