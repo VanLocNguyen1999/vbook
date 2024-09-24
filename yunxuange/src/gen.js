@@ -1,13 +1,11 @@
 load('config.js');
 function execute(url, page) {
-    if (!page) page = '1';
 
-    let response = fetch(url + "_" + page + ".html");
+    let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
         var novelList = [];
-        var next = doc.select("div.pagelist");
-        next = next[2].text();
+    
         doc.select("ul.list").select(".li").forEach(e => {
             novelList.push({
                 name: e.select("p.bookname").text(),
@@ -17,7 +15,7 @@ function execute(url, page) {
                 host: BASE_URL,
             });
         });
-        return Response.success(novelList, next);
+        return Response.success(novelList);
     }
     return null;
 }
