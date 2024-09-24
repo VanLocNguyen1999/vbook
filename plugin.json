@@ -47,6 +47,17 @@
       "description": "Đọc truyện trên uukanshu",
       "type": "LocNV",
       "locale": "vi_VN"
+    },
+    {
+      "name": "yunxuange",
+      "author": "LocNV",
+      "path": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/yunxuange/plugin.zip",
+      "version": 1,
+      "source": "https://www.tadu.com/",
+      "icon": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/yunxuange/icon.png",
+      "description": "Đọc truyện trên yunxuange",
+      "type": "LocNV",
+      "locale": "vi_VN"
     }
   ]
 }
