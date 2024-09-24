@@ -4,7 +4,7 @@
     "author": "LocNV",
     "version": 4,
     "source": "https://m.yunxuange.org/",
-    "regexp": "(https://m.yunxuange.org/)/[^/]+/?$",
+    "regexp": "(m.yunxuange.org/)/[^/]+/?$",
     "description": "Đọc truyện trên trang yunxuange",
     "locale": "vi_VN",
     "type": "novel",

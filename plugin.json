@@ -58,6 +58,17 @@
       "description": "Đọc truyện trên yunxuange",
       "type": "LocNV",
       "locale": "vi_VN"
-    }
+    },
+    {
+      "name": "bqxs520",
+      "author": "LocNV",
+      "path": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv/bqxs520/plugin.zip",
+      "version": 1,
+      "source": "http://www.bqxs520.com",
+      "icon": "https://raw.githubusercontent.com/VanLocNguyen1999/vbook/refs/heads/Loc_nv//icon.png",
+      "description": "Đọc truyện trên trang bqxs520.com",
+      "type": "LocNV",
+      "locale": "zh_CN"
+    },
   ]
 }
