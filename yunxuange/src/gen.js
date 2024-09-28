@@ -6,7 +6,7 @@ function execute(url, page) {
     if (response.ok) {
         let doc = response.html();
         const data = [];
-        doc.select("ul.list").select(".li").forEach(e => {
+        doc.select(".list").select("li").forEach(e => {
             data.push({
                 name: e.select("p.bookname").text(),
                 link: e.select("p.bookname").select("a").attr("href"),
