@@ -1,21 +1,23 @@
 load('config.js');
 function execute(url, page) {
-
+    if(!page) page = '1';
+    url = BASE_URL + url + page + ".html";
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-        var novelList = [];
-    
+        const data = [];
         doc.select("ul.list").select(".li").forEach(e => {
-            novelList.push({
+            data.push({
                 name: e.select("p.bookname").text(),
-                link: e.select("a").attr("href"),
-                description:e.select("p.intro").select("div.rtList").select("a.bookIntro").text(),
-                cover: e.select("a").attr("src"),
+                link: e.select("p.bookname").select("a").attr("href"),
+                description:e.select("p.intro").text(),
+                cover: e.get(0).attr("src"),
                 host: BASE_URL,
             });
         });
-        return Response.success(novelList);
+        let next_page = page + 1 ;
+        let next = BASE_URL + url + page + ".html";
+        return Response.success(data);
     }
     return null;
 }
