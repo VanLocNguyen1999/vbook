@@ -1,1 +1,1 @@
-const BASE_URL = "https://m.yunxuange.org/";
+const BASE_URL = "https://m.yunxuange.org";

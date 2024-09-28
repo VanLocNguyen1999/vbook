@@ -16,8 +16,8 @@ function execute(url, page) {
             });
         });
         let next_page = page + 1 ;
-        let next = BASE_URL + url + page + ".html";
-        return Response.success(data);
+        let next = BASE_URL + url + next_page + ".html";
+        return Response.success(data,next);
     }
     return null;
 }
